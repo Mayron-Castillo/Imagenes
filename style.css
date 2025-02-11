@@ -5,6 +5,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     background-color: #37b5f0;
     color: white;
@@ -13,6 +19,7 @@ header{
 }
 
 main{
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,11 +84,9 @@ button:hover {
 }
 
 footer{
-    position: absolute;
     width: 100%;
     padding: 1rem;
     background-color: #37b5f0;
     color: white;
     text-align: center;
-    bottom: 0;
 }
